@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>BBIC</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-success">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Brightway Balika Inter College</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="/">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/about.html">About</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="/acadeemics.html"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Academics
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="https://docs.google.com/spreadsheets/d/128WGgvkzakZ_BGcG5V6gaHRkFYuHW5M3OE6ofYR-jpw/edit#gid=0">Attendance</a></li>
+                <li><a class="dropdown-item" href="#">School Calender</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/gallery.html">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/contact.html">Contact Us</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-light" type="submit">Search</button>
+          </form>
+          <div class="mx-2">
+            <button type="button" class="btn btn-danger">Login</button>
+            <button type="button" class="btn btn-danger">SignUp</button>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div id="carouselExampleCaptions" class="carousel slide">
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="3"
+          aria-label="Slide 4"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="/8.jpg" class="d-block w-100 img-fluid" alt="..." />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Welcome to Brightway Balika Inter College</h5>
+            <p>Some representative placeholder content for the first slide.</p>
+            <button type="button" class="btn btn-primary">Primary</button>
+            <button type="button" class="btn btn-success">Secondary</button>
+            <button type="button" class="btn btn-warning">Danger</button>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="/9.jpg" class="d-block w-100 img-fluid" alt="..." />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Second slide label</h5>
+            <p>Some representative placeholder content for the second slide.</p>
+            <button type="button" class="btn btn-primary">Primary</button>
+            <button type="button" class="btn btn-success">Secondary</button>
+            <button type="button" class="btn btn-warning">Danger</button>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="/11.jpg" class="d-block w-100 img-fluid" alt="..." />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Third slide label</h5>
+            <p>Some representative placeholder content for the third slide.</p>
+            <button type="button" class="btn btn-primary">Primary</button>
+            <button type="button" class="btn btn-success">Secondary</button>
+            <button type="button" class="btn btn-warning">Danger</button>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="/12.jpg" class="d-block w-100" alt="..." />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Fourth slide label</h5>
+            <p>Some representative placeholder content for the third slide.</p>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <div class="row mb-2 my-2">
+      <div class="col-md-6">
+        <div
+          class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative"
+        >
+          <div class="col p-4 d-flex flex-column position-static">
+            <strong class="d-inline-block mb-2 text-primary">Manager</strong>
+            <h6 class="mb-0">Dr. Shamim Akhtar Khan</h6>
+            <div class="mb-1 text-muted"></div>
+            <p class="card-text mb-auto">
+              It has been my long pending dream to work towards the development
+              of my backward area specially in the sphere of education. When I
+              put an end
+            </p>
+            <a href="#" class="stretched-link">Continue reading</a>
+          </div>
+          <div class="col-auto d-none d-lg-block">
+            <img
+              class="bd-placeholder-img"
+              width="200"
+              height="250"
+              src="/7.png"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div
+          class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative"
+        >
+          <div class="col p-4 d-flex flex-column position-static">
+            <strong class="d-inline-block mb-2 text-success"
+              >THE STUDENT CONSULTANT</strong
+            >
+            <h3 class="mb-0">Principal</h3>
+            <div class="mb-1 text-muted">Nov 11</div>
+            <p class="mb-auto">
+              This is a wider card with supporting text below as a natural
+              lead-in to additional content.
+            </p>
+            <a href="#" class="stretched-link">Continue reading</a>
+          </div>
+          <div class="col-auto d-none d-lg-block">
+            <svg
+              class="bd-placeholder-img"
+              width="200"
+              height="250"
+              xmlns="http://www.w3.org/2000/svg"
+              role="img"
+              aria-label="Placeholder: Thumbnail"
+              preserveAspectRatio="xMidYMid slice"
+              focusable="false"
+            >
+              <title>Placeholder</title>
+              <rect width="100%" height="100%" fill="#55595c"></rect>
+              <text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text>
+            </svg>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- <div>
+      <h3 class="mx-4">OUR SERACH FOR QUALITY EDUCATION ENDS HERE:</h3>
+      <p class="mx-4">• Committed and effective teaching staff</p>
+      <p class="mx-4">• Integrated curriculum</p>
+      <p class="mx-4">• Child centric teaching to students</p>
+      <p class="mx-4">• Individual attention to students</p>
+      <p class="mx-4">• Respectful and safe environment</p>
+      <p class="mx-4">
+        • Emphasis on nurturing soft skills and social competencies
+      </p>
+      <p class="mx-4">
+        • Holistic approach to empower every child's body heart mind and soul.
+      </p>
+      <p class="mx-4">• Computer lab</p>
+      <p class="mx-4">• Library</p>
+      <p class="mx-4">• Sports kits</p>
+      <p class="mx-4">• Sports ground</p>
+      <p class="mx-4">• Play group class</p>
+      <p class="mx-4">• Bus facilities</p>
+      <p class="mx-4">• Cleaner for playgroup students</p>
+      <p class="mx-4">• Safe and clean washroom</p>
+      <p class="mx-4">• Studying throw projector</p>
+    </div> -->
+    <div class="container my-4">
+      <div
+        class="row featurette d-flex justify-content-center align-items-center"
+      >
+        <div class="col-md-7 order-md-2">
+          <h2 class="featurette-heading fw-normal lh-1">
+            FROM THE DESK OF MANAGER
+            <span class="text-muted"></span>
+          </h2>
+          <p class="lead">
+            It has been my long pending dream to work towards the development of
+            my backward area specially in the sphere of education. When I put an
+            end to all my industrial projects, I thought it is the perfect time
+            to transform my dream into reality as I got enough time to spend. I
+            founded Bright-Way Balika-inter college but soon I realized that
+            there is still something a miss and my dream is yet to materialize.
+            And this realization prompted me to establish another school that
+            can keep pace with the educational development at the national level
+            and hence founded Bangra Public School and when I did not find apt
+            teachers in the surrounding hired them from other parts of our
+            country. Now the school has been running successfully imparting best
+            quality education of national standard in such a backward area.
+          </p>
+        </div>
+        <div class="col-md-5">
+          <img src="/7.png" alt="" />
+        </div>
+      </div>
+    </div>
+    <div class="container my-4">
+      <div
+        class="row featurette d-flex justify-content-center align-items-center"
+      >
+        <div class="col-md-7">
+          <h2 class="featurette-heading fw-normal lh-1">
+            THE DIFFERENT PARTS OF THE SCHOOL:
+          </h2>
+          <p class="lead">
+            Apart from the conveying of essential knowledge and skills for
+            living, the priceless ability and confidence to study, understand
+            and apply any subject and environment in which children of all ages
+            are encouraged to communicate freely and confidently at Bangra
+            Public School. We strive to ensure that all students are happy
+            throughout their time at the school and graduate feeling
+            enthusiastic about life, having developed new friendships and gained
+            sense of achievement in an ethical highly productive and motivated
+            environment.
+          </p>
+        </div>
+        <div class="col-md-5">
+          <img width="100%" height="100%" src="/10.jpg" alt="" />
+        </div>
+      </div>
+    </div>
+    <div class="container my-4">
+      <div
+        class="row featurette d-flex justify-content-center align-items-center"
+      >
+        <div class="col-md-7 order-md-1">
+          <h2 class="featurette-heading fw-normal lh-1">
+            First featurette heading.
+            <span class="text-muted">It’ll blow your mind.</span>
+          </h2>
+          <p class="lead">
+            Some great placeholder content for the first featurette here.
+            Imagine some exciting prose here.
+          </p>
+        </div>
+        <div class="col-md-5">
+          <svg
+            class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
+            width="500"
+            height="500"
+            xmlns="http://www.w3.org/2000/svg"
+            role="img"
+            aria-label="Placeholder: 500x500"
+            preserveAspectRatio="xMidYMid slice"
+            focusable="false"
+          >
+            <title>Placeholder</title>
+            <rect width="100%" height="100%" fill="#eee"></rect>
+            <text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text>
+          </svg>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <footer
+        class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top"
+      >
+        <div class="col-md-4 d-flex align-items-center">
+          <a
+            href="/"
+            class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1"
+          >
+          </a>
+          <span class="mb-3 mb-md-0 text-muted">© 2023 BBIC, Inc</span>
+        </div>
+
+        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+          <li class="ms-3">
+            <a class="text-muted" href="https://in.linkedin.com/"
+              ><img width="24" height="24" src="linkedin.png" alt=""
+            /></a>
+          </li>
+          <li class="ms-3">
+            <a class="text-muted" href="https://twitter.com/"
+              ><img width="24" height="24" src="/twitter.png" alt=""
+            /></a>
+          </li>
+          <li class="ms-3">
+            <a class="text-muted" href="https://www.instagram.com/"
+              ><img width="24" height="24" src="/instagram.png" alt=""
+            /></a>
+          </li>
+          <li class="ms-3">
+            <a class="text-muted" href="https://www.facebook.com/"
+              ><img width="24" height="24" src="/facebook.png" alt=""
+            /></a>
+          </li>
+        </ul>
+      </footer>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
